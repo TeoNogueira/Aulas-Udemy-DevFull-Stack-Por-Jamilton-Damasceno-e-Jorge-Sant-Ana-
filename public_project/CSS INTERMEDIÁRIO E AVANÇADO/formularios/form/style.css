@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+}
+
+/* fieldset serve para agrupar dados semelhantes */
+/*.borda {border: none;}*/
+fieldset {
+  border: solid red 1px;
+}
+
+label {
+  cursor: pointer;
+}
+
+label:hover {
+  background-color: #b21b21;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 6fr 1fr;
+  grid-template-areas: "m" "a" "f"
+}
+
+main {
+  background-color: #21caca;
+  grid-area: m;
+}
+
+aside {
+  background: #71bbbb;
+  grid-area: a;
+}
+
+footer {
+  background: #646464;
+  url(./imagens/footer.png);
+  width: 1fr;
+  height: 1fr;
+  grid-area:f
+}
+
+#enviar {
+  width: 50px;
+  border: solid grey 1px;
+}
+
+.bordinha {
+  border: none;
+}

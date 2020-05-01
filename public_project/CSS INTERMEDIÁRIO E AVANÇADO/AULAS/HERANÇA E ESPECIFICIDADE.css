@@ -1,0 +1,35 @@
+/* Herança e especificidade
+
+vemos o exemplo de Herança o ""*"" (<<geral) e o body,
+background e border se pomos num body onde existam
+vários parágrafos
+ele pega de uma
+maneira total, não em cada parágrafo, já o * (geral)
+pega em cada parágrafo.
+
+em especificidade se tivermos dois parágrafos criados
+no css cada um em uma cor diferente, a ultima vai ser
+a que funciona. dois seletores iguais sempre o ultimo funciona
+
+a não ser que possamos colocar o comando !important
+
+
+
+
+
+*/
+
+
+body { font-size: 16px;
+font-family: sans-serif;
+
+
+
+}
+
+
+h2  { color: blue;}
+
+h2.verde { color: verde;}
+
+h2#amarelo {color: amarelo;}

@@ -1,0 +1,57 @@
+/*#caixa {
+  width: 300px;
+  height: 300px;
+  /*padding: 40px;*/
+/*box-sizing: border-box;*/
+/*  background: #babaca ;
+/*  background: radial-gradient(aqua, #f9b9d9, #ccc, #babaca);*/
+/*  background: linear-gradient( to top right, aqua, #f9b9d9, #ccc, #babaca);*/
+}
+
+/*#caixa h1 {background: rgba(115,105,186, 0.3);
+  text-align: center;
+ }*/
+/*#caixa h1 { text-align: center;}
+#caixa2, h1 p {
+  text-align: center;
+}
+
+#caixa2 {
+  width: 300px;
+  height: 250px;
+  background: #b9f9c9;
+
+
+}*/
+/*Transition---xxxx----------Transição--
+----------------------------------*/
+html, body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#caixa {
+  width: 300px;
+  height: 250px;
+  background: #a9a9a9;
+}
+
+#caixa:hover {
+  width: 500px;
+  height: 400px;
+  transition: width 5s,
+  background 3s;
+  background: #a898c8;
+/*  transition: all 4s; */
+}
+
+#caixa h1 {
+  text-align: center;
+
+}
+
+
+h1#caixa {
+  text-align: center; top: 50%; transition: all 2s;
+
+}

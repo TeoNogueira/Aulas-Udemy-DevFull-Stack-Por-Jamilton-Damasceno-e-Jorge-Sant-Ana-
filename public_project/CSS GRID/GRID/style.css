@@ -1,0 +1,49 @@
+ html, body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   width: 100px;
+   height: 100px;
+ }
+
+.container { width: 100vw; height: 100vh; background: black; display: grid;
+
+grid-template-columns: 1fr 1fr 1fr ; grid-template-rows: 1fr 1fr 1fr;
+grid-gap: 5px; justify-content: center;
+}
+
+
+.container > div { background: #71b999;}
+
+/*
+
+#justify << configura na horizontal (esquerda, direita)
+
+#align << configura na vertical (cima para baixo)
+
+# content, items, self
+
+existem 7 valores para content:
+1.start
+2.end
+3.center
+4.stretch
+5.space-between
+6.space-around
+7.space-evenly
+
+
+Existem 4 valores para Items:
+
+
+1.start
+2.end
+3.center
+4.stretch
+======x=====x=====x=====x=====x=====x=
+
+
+Self é a mesma coisa de Items, só que é aplicado para o próprio grid
+posso alternar manualmente uma das divs através dele */
+
+.divenita { justify-self: center; width:140px;}

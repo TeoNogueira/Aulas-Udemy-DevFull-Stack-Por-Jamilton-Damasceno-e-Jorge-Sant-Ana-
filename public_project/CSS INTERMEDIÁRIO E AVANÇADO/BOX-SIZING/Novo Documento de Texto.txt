@@ -1,0 +1,26 @@
+box-sizing: border-box;
+
+
+
+
+
+A importância do box-sizing é não deixar que o padding tome conta da caixa inteira;
+
+pois se eu aplico outra caixa dentro de uma mesma caixa ela exigirá maior tamanho para configuração do que 
+
+
+a caixa primeira ex:
+
+.caixa1
+{ width: 300px;
+
+   height: 200px;
+padding: 40px; }          se eu aplicar box-sizing: border-box; na caixa1 não irei precisar aumentar a largura ou talvez altura da caixa 2
+
+
+
+.caixa2
+{ width: 400px;
+
+   height: 200px;
+} 

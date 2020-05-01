@@ -1,0 +1,10 @@
+article { background: orange; padding: 10px; box-sizing: border-box;}
+
+
+section { border: solid #fff 1px;}
+
+
+section.none  { border: none; }
+
+
+aside { background: blue;}

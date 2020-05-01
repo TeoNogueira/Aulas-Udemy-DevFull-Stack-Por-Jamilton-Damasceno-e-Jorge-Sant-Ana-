@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+        <link rel="stylesheet" href="./GRID/grid.css" type="text/css">
+    <title></title>
+  </head>
+  <body>
+<div >
+
+  <h2 class="size"> Bem-vindo </h2>
+  <p> #container </p>
+  <p>- Display - Grid</p>
+  <p>- Grid-template-columns</p>
+  <p>- Grid-template-rows;</p>
+   <p>- Grid-gap</p>
+   <p> Grid-row-gap</p>
+   <p>  Grid-column-gap</p>
+   <p>- Grid-template-areas</p>
+   <p></p>
+   <p></p>
+    <p> - Grid-column</p>
+       <p>  Grid-column-start</p>
+         <p>  Grid-column-end </p>
+         <p></p>
+         <p> Grid-row</p>
+          <p> Grid-row-start</p>
+           <p> Grid-row-end</p>
+            <p> Grid-area</p>
+</div>
+  </body>
+</html>

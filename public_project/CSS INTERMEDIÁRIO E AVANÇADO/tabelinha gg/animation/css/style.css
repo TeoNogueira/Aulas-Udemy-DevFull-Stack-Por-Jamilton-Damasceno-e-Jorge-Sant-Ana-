@@ -1,0 +1,29 @@
+#caixa {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  /*padding: 40px;*/
+  box-sizing: border-box;
+  background: #00BFFF;
+/*  background: radial-gradient(aqua, #f9b9d9, #ccc, #babaca);*/
+/*  background: linear-gradient( to top right, aqua, #f9b9d9, #ccc, #babaca);*/
+box-shadow: 20px 15px 22px 20px black;
+}
+#caixa h1 { color: #befff9; text-shadow: 30px 6px 5px rgba(200, 167, 120, 0.4);
+}
+
+/*#caixa h1 {background: rgba(115,105,186, 0.3);
+  text-align: center;
+ }*/
+
+#caixa2, h1 p {
+  text-align: center;
+}
+
+#caixa2 {
+  width: 300px;
+  height: 250px;
+  background: #b9f9c9;
+
+
+}

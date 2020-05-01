@@ -1,0 +1,72 @@
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+@font-face {
+  font-family: banitha;
+  src: url(../fonts/banitha.woff);
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.caixa1 {
+  background-image: url("../imagens/imagem1.jpg");
+}
+
+.caixa2 {
+  background-image: url("../imagens/imagem2.jpg");
+}
+
+.caixa3 {
+  background-image: url("../imagens/imagem3.png");
+}
+
+.caixa4 {
+  background-image: url("../imagens/imagem4.jpg");
+}
+
+.conteudo {
+  color: #b9b9dc;
+  background-color: #f5f5dc;
+  text-align: center;
+  font-size: 1.7em;
+  padding: 50px 80px;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+.texto-botao {
+  left: 0;
+  text-align: center;
+  top: 35%;
+  position: absolute;
+  width: 100%;
+
+}
+
+.texto-botao span.cont-span {
+  color: #fff;
+  background-color: #babada;
+  letter-spacing: 5px;
+  padding: 18px;
+  font-size: 25px;
+border-radius: 9px 15px;
+}
+
+.rodape {
+  color: #b9b9dc;
+  background-color: #f5f5dc;
+  text-align: center;
+  font-size: 1.7em;
+  padding: 15px 20px;
+}

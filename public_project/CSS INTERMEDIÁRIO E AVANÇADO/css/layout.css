@@ -1,0 +1,86 @@
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+#container {
+  width: 960px; /*720px*/
+  margin: 0 auto;
+  background: #d1d1d1 url("../imagens/coluna.png") repeat-y left top;
+  min-width: 720px;
+  max-width: 1280px;
+}
+
+#marca {
+background: #225992 url("../imagens/cabecalho2.jpg");
+  width:100%;
+  height: 200px;
+
+  text-align: center;
+  line-height: 200px;
+}
+
+
+
+
+#conteudo {
+
+  width: 76%; /*520px > 75%*/
+  float: right;
+  background: #fff;
+}
+
+#navegacao {
+
+  width: 23%; /*180 > 25%*/
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+#rodape {
+  padding: 5px;
+  clear: both;
+  background: #c4c4c4;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#conteudo-principal {
+
+  float: left;
+  width: 64%; /* 320px = 64%, calcule 320*100 dividido pelo total da
+   soma do conteudo
+  principal e secundario que é 320px+180px = 500px, entao 32000/500 = 64*/
+
+}
+
+img.imagem {
+width: 96%; padding: 2%;}
+
+
+h2 { text-align: center;}
+
+#conteudo-secundario {
+  float: right;
+  width: 36%; /* 180px = 36% */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background:  url("../imagens/coluna.png") repeat-y;
+
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+  padding-left: 20px;
+  padding-right: 20px;
+}

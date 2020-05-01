@@ -1,0 +1,24 @@
+html, body {padding: 0; margin: 0; box-sizing: border-box;
+background: #7159c1;}
+
+
+.container { display: grid; grid-template-columns: 3fr 1fr;
+grid-template-rows: 15vh 45vh 40vh; grid-template-areas: "m h"
+"a a" "f f";
+
+/*grid-gap: 20px 50px;*/ }
+
+
+
+
+header { background: yellow; /* grid-column-start:1;
+   grid-column-end:3;*/ grid-area: h;}
+
+main { background: blue; /*grid-column-start:1;
+   grid-column-end:2;*/ grid-area:m;}
+
+aside {background: green; grid-column-start:2;
+   grid-column-end:3; grid-area:a;}
+
+footer { background: red;  grid-column-start:1;
+   grid-column-end:3; grid-area:f;}

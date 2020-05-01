@@ -1,0 +1,89 @@
+/* Barra vertical
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px 20px;
+border: 1px solid red;
+ background: url(../imagens/seta.png) no-repeat left center; */
+/*
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul a {
+  width: 200px;
+  height: 40px;
+  color: black;
+  text-decoration: none;
+  line-height: 40px;
+  text-indent: 40px;
+  display: block;
+  background: #dadaba url(../imagens/menu.png) no-repeat left bottom;
+}
+
+a:hover {
+  background-position: right bottom;
+  background-color: #babaca;
+  color: #fff;
+}
+
+#home .home a,
+#sobre .sobre a,
+#servicos .servicos a,
+#noticias .noticias a,
+#contato .contato a {
+  background-position: right bottom;
+  background-color: #babaca;
+  color: #fff;
+} */
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 760px;
+  text-align: center;
+  background: #addbad;
+height: 640px;
+}
+
+ul {
+  margin: 0 auto;
+  list-style: none;
+  width: 720px;
+  background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x ;
+  float: left;
+  text-align: center;
+}
+
+ul li {
+  float: left;
+}
+
+/* "MUITO IMPORTANTE!" É
+LEMBRAR QUE FLOAT MUDA O FLUXO DO DOCUMENTO
+O MELHOR A SE FAZER QUANDO USA FLOAT É USAR O CLEAR: BOTH;*/
+ul a {
+  display: block;
+  padding-left: 35px;
+  padding-right: 60px;
+    line-height: 2em;
+  text-decoration: none;
+  color: white;
+  background: url(../imagens/divisor.png) repeat-y left top;
+
+}
+
+ul .primeiro a {
+
+}
+
+ul a:hover {
+  background: #44cade;
+  color: #085980;
+}

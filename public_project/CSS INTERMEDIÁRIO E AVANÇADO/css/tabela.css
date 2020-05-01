@@ -1,0 +1,32 @@
+body {
+  font-family: "trebuchets ms", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 1200px;
+  border-collapse: separate;
+  /*collapse*/
+  font-size: 1.0em;
+}
+
+th, td {
+
+  padding: 7px;
+}
+
+th {
+  text-transform: uppercase;
+  border-top: #999 solid;
+  border-bottom: #111 solid;
+  font-size: 80%;
+  letter-spacing: 0.2em;
+}
+th:hover { background-color: #21bbee;}
+td:hover { background-color: #21bbbb;}
+tr:hover { background-color: #e5e5e5;}
+
+
+
+/*.valores { border: dashed 1px green;}*/

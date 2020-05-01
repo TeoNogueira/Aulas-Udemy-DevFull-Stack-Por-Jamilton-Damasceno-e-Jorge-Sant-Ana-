@@ -1,0 +1,75 @@
+/* Barra vertical
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px 20px;
+border: 1px solid red;
+ background: url(../imagens/seta.png) no-repeat left center; */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul a {
+  width: 200px;
+  height: 40px;
+  color: black;
+  text-decoration: none;
+  line-height: 40px;
+  text-indent: 40px;
+  display: block;
+  background: url(../imagens/menu.png) no-repeat left bottom;
+}
+
+a:hover {background-position: right bottom; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------- parte do html >>>> lembrando que a foto é de 400px largurapor 40px altura  dividido em dois pedaços 
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="C:\Users\Celia\Desktop\projeto teo Developer Web\CSS INTERMEDIÁRIO E AVANÇADO\css\style.css" type="text/css">
+  <title>Menu Lateral - Menu Horizontal</title>
+</head>
+
+<body>
+
+  <h2>Lista de Atividades</h2>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="sobre.html">Sobre</a></li>
+    <li><a href="servicos.html">Serviços</a></li>
+    <li><a href="noticias.html">Notícias</a></li>
+      <li><a href="contato.html">Contato</a></li>
+  </ul>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+/* seletor filho... seleciona direto aquele que é filho de outro..
+
+o exemplo abaixo vemos que o li é filho de a no caso se estivesse um span antes do
+
+"a", li seria filho de span e o seletor funcionaria aplicando no span e nao na segunda
+
+opção que o "a" exemplo: <li> <span> <a href> só funcionaria as coisas aplicadas a span */
+li>a {
+  color: red;
+  text-decoration: none;
+}
+
+/* seletor descendente... independente de estar aninhado ele seleciona.
+
+no caso aqui se estivesse um span em cima mesmo assim o <a href+""> funcionária*/
+li a {
+  color: green;
+  text-decoration: none;
+}
+
+/* seletor irmão/ adjacente... parecido com seletor filho o seletor irmao
+aplica o irmão logo abaixo exemplo se estiver uma <div> e logo abaixo dois
+parágrafos ele aplica no primeiro abaixo dele
+<div> </div>
+ <p> somente esse irmão será aplicado </p>
+   <p> </p>
+(repare que filho é o que tá dentro e irmão o que está próximo).
+
+
+*/
+div+p {
+  color: yellow;
+  background-color: #dadab9;
+}
+
+/* seletor irmão geral... ele aplica em todos abaixo e não somente em um */
+div~p {
+  color: yellow;
+  background-color: #dadab9;
+}
