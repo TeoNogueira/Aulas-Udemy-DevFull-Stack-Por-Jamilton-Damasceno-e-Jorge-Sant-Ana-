@@ -1,0 +1,55 @@
+#container {
+  background: #dcdcdc;
+  height: 400px;
+  display: flex;
+  /*flex-direction: column;*/
+  flex-wrap: nowrap; /*flex-wrap: wrap-reverse; nowrap;*/
+   justify-content: space-around;
+   /*justify-content: space-between;*/
+   /*justify-content: space-around;*/
+   /*justify-content: flex-end e flex-start e tambem Center;*/
+   /*baseline |stretch |center | flex-start| flex-end|  */
+   align-items: baseline;
+
+
+}
+
+/*
+.ordem1 { order: 1;}
+
+
+.ordem2 { order: 2;}
+
+.ordem3 { order: 3;}
+
+.ordem4 { order: 4;}
+*/
+
+.item {
+
+  background: white;
+  border: 1px solid gray;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 10px 5px #99bace;
+ flex-shrink: 1;
+
+}
+
+.item1 { /* Define proporção de espaço ocupado por um
+ item */
+/*flex-grow: 1;*/
+
+/* diminui a proporção de um item, posso tambem
+deixar esse shrink como 1 e o resto dos itens como 5
+causando assim um efeito reverso*/
+/*flex-shrink: 1;*/
+
+/* indica o tamanho inicial do flex item antes
+da distribuição do espaço restante */
+flex-basis: 100px;
+
+
+}
