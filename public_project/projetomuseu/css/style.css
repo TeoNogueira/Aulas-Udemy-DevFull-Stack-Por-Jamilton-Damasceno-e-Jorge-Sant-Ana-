@@ -1,0 +1,200 @@
+body {
+  background: #f4f2ec url("../imagens/fundo.png") repeat-x;
+  font: 12px "Lucinda Grande", "Lucinda Sans Unicode", Arial, Sans-serif;
+}
+
+#container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+  color: #af670a;
+  text-decoration: none;
+}
+
+#logo a {
+  width: 248px;
+  height: 21px;
+  display: block;
+  background: url("../imagens/logo.png") no-repeat;
+  text-indent: -3000px;
+}
+
+/*--------------BARRA DE NAVEGACAO ---*/
+nav a {
+  text-decoration: none;
+  color: #dacece;
+}
+
+nav ul {
+  list-style: none;
+  margin: 20px;
+  float: right;
+}
+
+nav ul li {
+  float: left;
+  padding-left: 20px;
+}
+
+nav ul li a:hover {
+  color: #95bace;
+}
+
+nav ul li a:link {
+  display: block;
+}
+
+header {
+  padding: 15px;
+  height: 55px;
+}
+
+/*----------CONTEUDO E LATERAL------*/
+#principal {
+  width: 710px;
+  float: left;
+  margin-bottom: 120px;
+}
+
+aside {
+  background: #ebe7dd;
+  width: 350px;
+  float: right;
+
+
+}
+
+section#visita {
+  background: #cdc8b1;
+  padding: 10px 27px 27px 27px;
+  margin-top: 10px;
+}
+
+h3 {
+  color: #227115;
+  text-transform: uppercase;
+}
+
+h4 {
+  text-transform: uppercase;
+  color: #86521a;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+
+/*------------------ Formulários ---------*/
+input {
+  height: 20px;
+  background: #fff;
+  border: none;
+  width: 80px;
+  font-size: 1em;
+}
+
+input.campo {
+  border: 1px solid #ada484;
+}
+
+input.botao {
+  background: #9b9271;
+  color: white;
+  width: 100%;
+  height: 40px;
+  font-size: 1.2em;
+}
+
+input.botao:hover {
+  cursor: pointer;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  display: none;
+}
+
+/*----------GALERIA---------*/
+section#galeria a {
+  display: block;
+  background: url(../imagens/fundo-foto.png) no-repeat;
+  float: left;
+  padding: 15px 15px 18px 15px;
+  margin: 10px 0px 0px 35px;
+}
+
+section#galeria h1 {
+  border-bottom: solid 1px #ada484;
+  padding: 0 27px 0 27px;
+  color: #af670a;
+}
+
+section#galeria img {
+  margin: 4px 0 0 2px;
+}
+
+/*-----------------------POSTAGENS----*/
+#video {
+  float: left;
+  margin-left: 27px;
+}
+
+#mapa {
+  float: left;
+  margin-left: 37px;
+}
+
+.texto1 {
+  float: left;
+  margin: 20px 0 0 0;
+}
+
+.texto1 li {
+  padding: 3px;
+}
+
+.texto1 ul li a:hover {
+  color: #99bace;
+}
+
+.texto2 ul li {
+  list-style: none;
+  padding: 3px;
+}
+
+.texto2 ul li a {
+  text-decoration: none;
+}
+
+.texto2 {
+  float: right;
+  margin: 20px 0 0 10px;
+  text-align: left;
+}
+
+.texto2 ul li a:hover {
+  color: #ada484;
+}
+
+/*Lembrar sempre de limpar o fluxo (clear:both;)
+após usar a Propriedade Float */
+/*------------Rodape---------------*/
+footer {
+
+  padding: 20px 0 30px 0;
+  text-align: center;
+  background: url("../imagens/fundo-rodape.png") no-repeat top;
+
+}
+#rodape { clear: both;}
+
+/* ------- FIM DO PROJETO -----
+
+Dicas: Quando se usa o float acontece uma coisa chamada
+"Margin Collapse" Quando usamos o margin onde foi usado o clear:both;
+por isso devemos utilizar o margin ao redor
+ (falo em outros seletores e classes), para assim da continuidade no projeto
+ que está utilizado o clear: both; */
