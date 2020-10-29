@@ -1,0 +1,1 @@
+document.write('<h1>Olá José tudo bem?</h1>')

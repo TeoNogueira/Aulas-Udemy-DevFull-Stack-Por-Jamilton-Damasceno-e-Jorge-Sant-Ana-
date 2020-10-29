@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+
+
+    <script class="">
+
+   //     var data = new Date()
+
+   //  document.write(data.getDate()) 
+
+   //var data = new Date()
+// document.write(data.getDate() + '/' + (data.getMonth() + 1 + '/' + data.getFullYear())) 
+
+ // adicionar / remover dias
+
+/*
+ var data = new Date()
+
+document.write(data.toString())
+
+data.setDate(data.getDate() + 1) // adicionando dias para a data atual
+
+document.write('<hr />')
+
+document.write(data.toString())
+
+document.write('<br />' + '<br />' + '<br />')
+// --------------x-----------x-------------x----------------------------------------------------------------
+
+
+
+
+var data = new Date()
+
+document.write(data.toString())
+
+data.setMonth(data.getMonth() + 2) // adicionando meses para a data atual
+
+document.write('<hr />')
+
+document.write(data.toString())
+
+document.write('<br />' + '<br />' + '<br />')
+//----------x-----------------------------------------------x----------------------------------x
+
+
+
+var data = new Date()
+
+document.write(data.toString())
+
+data.setFullYear(data.getFullYear() + 1) // adicionando dias para a data atual
+
+document.write('<hr />')
+
+document.write(data.toString())
+
+document.write('<br />' + '<br />' + '<br />')
+// --------------x-----------x-------------x----------------------------------------------------------------
+
+
+*/
+
+// 26/10/2020
+
+var data1 = new Date(2020, 9, 26)
+
+
+
+// 11/11/2020
+
+var data2 = new Date(2020, 10, 11)
+
+
+document.write(data1.toString()+ '<br />')
+document.write(data2.toString())
+
+document.write('<hr />')
+document.write(data2.toString())
+// converter datas para algo que possamos calcular ----------------
+document.write('<hr />' + '<br />')
+document.write(data1.getTime()) // getTime() puxa o os milissegundos
+document.write('<hr />' + '<br />')
+document.write(data2.getTime())
+
+
+
+document.write('<br />')
+        
+   // 1 de janeiro de 1970 <<<<<< data de padrão computacional para o getTime() fazer o calculo dos milissegundos
+   // a partir dessa data     
+
+   // próximo passo é encontrar a quantidade de milessegundo de data1 e data2
+
+
+
+document.write(Math.abs(data1.getTime() - data2.getTime())) //Math.abs <<< retorna um valor absoluto de um numero
+          //Math.abs se retorna subtração o abs faz ficar positivo 
+
+
+
+
+
+// 1 dia tem 24, cada hora de tem 60 minutos, cada minuto tem 60 segundos, e cada segundos tem 1000 milissegundos
+// então quantos milissegundos existem em um dia?
+
+
+document.write(' 1 dia tem' + (1*24*60))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+        
+
+
+</head>
+<body>
+
+
+
+  <!----  <script src="./scripts/desafio.js"></script>-- >
+</body>
+</html>
