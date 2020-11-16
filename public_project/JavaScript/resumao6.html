@@ -24,54 +24,56 @@ border-bottom: 1 px solid black;
 }
 
 
-
+.januel {width: 500px; background: blue; height: 120px;}
 
 
 </style>
 
 
 
-    <script class="">
-
-   
-        
-
-
-function mudarTema(listaFrutas) {
-
-
-    document.getElementById('tigerthemes').className = 'tiger'
- 
-
-
-    let listaFrutas = Array()
-        
-        listaFrutas[0] = 'maçã'
-    listaFrutas[1] = 'uva'
-    listaFrutas[2] = 'pera'
-    listaFrutas[3] = 'goiaba'
-   document.write(listaFrutas)
-   
-   
-  
-
-
-
-   
-    
-    }
-
-
-
-           </script>
-        
 
 
 </head>
 <body>
 <button onclick="mudarTema()" type="button">Tiger-Theme's</button>
-<div id="tigerthemes" >Tiger Theme</div>
+<div id="tigerthemes" class="januel">teo</div>
 
+
+
+
+<script class="">
+
+   
+        
+
+
+    function mudarTema() {
+    
+    
+        document.getElementById('tigerthemes').classList.replace('januel', 'tiger') // classList.toggle 
+        
+                                                                            // classList.replace 
+        
+      
+    /*
+   document.write(lista)
+    
+   const lista =  listaFrutas = []
+
+
+   listaFrutas['jogo'][1] = 'ok'
+   listaFrutas['jogo'][2] = 'ml'
+   listaFrutas['jogo'][3] = 'lol'
+   document.write(lista)
+*/
+        
+        }
+    
+       
+    
+    
+               </script>
+            
 
 </body>
 </html>

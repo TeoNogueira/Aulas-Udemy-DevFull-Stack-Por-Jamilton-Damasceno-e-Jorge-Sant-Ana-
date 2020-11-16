@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+<link href="css/style.css" type="text/css" rel="stylesheet"></style>
+<script src="js/jogo.js"></script>
+
+
+</head>
+<body onresize="ajustaTamanhoPalcoJogo()">
+
+
+<div class="painel">
+
+<div class="vidas">
+
+
+<img id="v1" src="imagens/coracao_cheio.png" alt="" class="" />
+<img id="v2" src="imagens/coracao_cheio.png" alt="" class="" />
+<img id="v3" src="imagens/coracao_cheio.png" alt="" class="" />
+</div>
+
+<div class="cronometro">Tempo restante: ? <span id="cronometro"></span></div>
+
+</div>
+
+<script class="">
+
+  document.getElementById('cronometro').innerHTML = tempo
+  
+  var createInsect =  setInterval(function() {
+ 
+    positionRandom()
+
+
+}, createInsectTime)
+</script>
+  
+</body>
+</html>
