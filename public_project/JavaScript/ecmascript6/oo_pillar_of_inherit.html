@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+
+    <script>
+//Pillar of Inherit
+
+class Animal{ // Class father
+
+constructor() {
+
+
+this.cor = 'Branco e Marrom'
+this.tamanho = null
+this.peso = null
+
+}
+dormir() {
+
+console.log('Dormir')
+
+}
+
+}
+class Cachorro extends Animal {//sub-class
+
+
+
+    constructor() {
+
+
+        super()
+        this.orelhas = 'Grandes e caídas'
+
+    }
+
+    correr() {
+
+    console.log('Correr')
+    }
+
+   
+
+    
+
+    rosnar() {
+
+
+        console.log('Rosnar')
+
+    }
+
+
+}
+
+class Passaro extends Animal {//sub-class
+
+
+
+
+    constructor() {
+
+     super()
+        this.bico = 'Curto'
+    }
+
+    voar() {
+        console.log('Voar')
+    }
+
+   
+}
+class Papagaio extends Passaro {
+
+constructor() {
+super()
+
+this.sabeFalar = true
+
+}
+
+falar() {
+
+    console.log('HELLO WORLD')
+}
+
+
+
+}
+let cachorro = new Cachorro()
+
+let passaro = new Passaro()
+let papagaio = new Papagaio()
+/*
+cachorro.dormir()
+passaro.dormir()
+papagaio.falar()
+papagaio.dormir()
+papagaio.voar()
+*/
+console.log(passaro)
+console.log(cachorro)
+console.log(papagaio)
+
+    </script>
+
+</head>
+<body>
+    <div id="output"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
