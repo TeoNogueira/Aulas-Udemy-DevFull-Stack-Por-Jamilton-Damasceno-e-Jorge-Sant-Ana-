@@ -20,8 +20,8 @@ this.acelerar = function() {
 
 let velocidade = this.getvelocidadeAtual() + 50
 if(velocidade > this.velocidadeMaxima) { 
-velocidade = this.velocidadeMaxima
-
+velocidade = this.velocidadeMaxima // se tentar ultrapassar a velocidade maxima....
+// Ela volta pra máxima e não ultrapassa
 }
 this.setvelocidadeAtual(velocidade)
 }
@@ -96,7 +96,6 @@ this.velocidadeAtual = 0
 this.acelerar = function() {
 
 let velocidade = this.getvelocidadeAtual() + 50 
-if(velocidade > velocidadeMaxima) { 
 velocidade = velocidadeMaxima
 
 }
