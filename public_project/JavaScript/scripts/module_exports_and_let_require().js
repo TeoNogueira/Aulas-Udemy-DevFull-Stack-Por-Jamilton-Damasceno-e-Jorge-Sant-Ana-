@@ -3,21 +3,20 @@
 
 let pessoa = {// objeto literal
 
-
-    nome: 'Teo',
-    classe: 'Human',
+    dono: 'Teófilo Nogueira',
+    //classe: 'Human',
    
     }
     
      profissao = () => { // INCLUSAO DE VARIAVEIS PARA UM OBJETO LITERAL ATRAVÉS DE ARROW FUNCTION DENTRO DE A.F
     
         pessoa.prof = 'Programador'
-       pessoa.nome = 'Ok'
+      // pessoa.dono = 'Teófilo'
        
         console.log(pessoa)
     
-    
-    pessoa.msg = () => console.log('Parabéns você está quase concluindo a parte de EcmaScript6')
+    let msgnode = 'Iremos Iniciar nossas aulas de Node.JS'
+    pessoa.msg = () => { console.log(`<h1>Bem-Vindo ao Site de Teo_Nogueira</h1> <br/> ${msgnode}`) }
     
      console.log(pessoa.prof)
     console.log(pessoa)
