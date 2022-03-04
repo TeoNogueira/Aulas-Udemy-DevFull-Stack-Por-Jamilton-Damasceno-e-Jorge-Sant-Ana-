@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-<script class="">
 
 var Carro = function() {
 
@@ -121,7 +114,7 @@ let setKmsRodados = function(q) {
 
 }
 
-}
+
 
 let carro2 = new Carro2()
 
@@ -155,14 +148,3 @@ carro2.acelerar()
 console.log(carro)
 
 console.log(carro2)
-</script>
-
-
-
-
-
-</head>
-<body>
-    
-</body>
-</html>

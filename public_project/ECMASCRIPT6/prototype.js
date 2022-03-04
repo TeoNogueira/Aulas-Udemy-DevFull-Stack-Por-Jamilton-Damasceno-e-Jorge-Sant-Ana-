@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-    <script class="">
 
 //aviao
 //cor
@@ -69,9 +62,4 @@ let a3 = new AviaoC()
 console.log(a1)
 console.log(a2)
 console.log(a3)
-    </script>
-</head>
-<body>
-    
-</body>
-</html>
+   

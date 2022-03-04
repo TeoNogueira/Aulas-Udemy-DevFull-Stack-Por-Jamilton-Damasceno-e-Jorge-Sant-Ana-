@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script class="">
+
 // contexto Rest
 
 function soma(...param) {
@@ -24,9 +18,6 @@ return resultado
  console.log(soma(3, 8, 5, 7, -5, 10)) // at s F.e
 
 
-
-
-
  //--------------------------x-------------------------------//
     
  let multiplicador = (m, ...p) => {
@@ -41,19 +32,3 @@ return resultado
 }
 
 console.log(multiplicador(5, 7, 12, 3, 49))
-
-
-
-
-
-
-
-
-
-
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

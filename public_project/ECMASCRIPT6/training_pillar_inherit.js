@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html lang="PT_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-
-    <script>
 
         class Animal {
         
-        
         constructor(cor, peso, nation, sleep, air) {
-        
         
         this.cor = cor
         this.peso = peso
@@ -20,38 +10,21 @@
         this.sleep = sleep
         this.air = air
         
-        
         }
         
         dormir() {
-        
-       
-        
+
         console.log('dorme') 
-        
-        
-         }
-        
-         
-         
-        
-        
-        voar() { 
-        
-        
-        
-        console.log('voa')
-        
-        
-        
         
         }
         
-        } 
+        voar() { 
         
+        console.log('voa')
         
-    
+        }
         
+        }      
         
         class Aguia extends Animal  {
         
@@ -64,29 +37,17 @@
     }
 
      
-    dormir() {
-        
-       
+    dormir() {     
         
         console.log('dorme') 
         
         
+         }               
+          
+          voar() { 
+        
+        console.log('voa')        
          }
-        
-         
-         
-        
-        
-        voar() { 
-        
-        
-        
-        console.log('voa')
-        
-        
-        
-        
-        }
         }
         
         
@@ -101,29 +62,19 @@
         }
          
         dormir() {
-        
-       
-        
+                
         console.log('dorme') 
-        
-        
+               
          }
         
         voar() { 
-        
-        
-        
-        console.log('voa')
-        
-        
-        
-        
+                       
+        console.log('voa')     
+              
         }
 
        
     }
-
-
 
 
     
@@ -141,21 +92,8 @@ coruja.dormir()
     console.log(corujaOuro)
 
     corujaOuro.voar()
-
-   
 }
 
 x()
 
 
-    </script>
-
-
-
-
-
-</head>
-<body>
-    
-</body>
-</html>

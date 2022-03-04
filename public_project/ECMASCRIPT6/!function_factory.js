@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <script class="">
 
 
 let Bicicleta1 = {
@@ -75,9 +67,3 @@ let Bicicleta4 = BicicletaFactory('Cinza', '12', 12, true)
 
 console.log(Bicicleta4)
 
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <script></script>
-
-    <script>
 
   function contarUmaHistoria(personagem, atividade, nome_dono = 'Gengisvaldo') {
     
@@ -15,11 +6,3 @@
     document.write(`Era uma vez um cachorro chamado ${personagem}, ele adorava ${atividade}, com o seu dono(a) o(a) ${nome_dono}, e eles viveram felizes pra sempre`)
   }
 contarUmaHistoria(`Ralph`, `beber água`, `undefined`) // 
-
-    </script>
-
-</head>
-<body>
-    <div id="output"></div>
-</body>
-</html>

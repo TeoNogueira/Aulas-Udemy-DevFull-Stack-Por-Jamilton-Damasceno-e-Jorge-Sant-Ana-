@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script class="">
+
 /*
 let msg = 'como utilizar o operador spread'
 //console.log(msg)
@@ -34,11 +28,22 @@ nome: 'João', idade: 27
 
 let clone = { endereco: 'Rua ABC', ...pessoa}
 
-console.log(clone)
+// console.log(clone)
 
-    </script>
-</head>
-<body>
-    
-</body>
-</html>
+
+
+let curso = {
+
+    EBAC: 'Escola Britânica de Artes e Tecnologias',
+    Aluno: 'Teófio'
+}
+
+
+let receive = {
+
+    ...curso, end: 'Rua xxxx', num: 4423, 
+
+}
+
+
+console.table(receive)

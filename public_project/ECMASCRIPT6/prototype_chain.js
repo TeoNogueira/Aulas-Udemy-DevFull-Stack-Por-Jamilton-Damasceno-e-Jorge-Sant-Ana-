@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <script class="">
-
 
 // object prototype
 
@@ -15,7 +6,6 @@ let animal = {
 attr1: 'a'
 
 }
-
 
 let vertebrado = {
 
@@ -32,11 +22,3 @@ __proto__: vertebrado, attr3: 'c', attr2: 'VERTEBRAS'
 Object.prototype.jojo50 = 'Atribuindo fora da cadeia literal de Objetos'
 
 console.log(ave.attr2, ave.attr1, ave.attr3, ave.jojo50)
-
-
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

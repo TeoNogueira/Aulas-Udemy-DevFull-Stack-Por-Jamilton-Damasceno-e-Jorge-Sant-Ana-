@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-<script class="">
 
 
 
@@ -42,13 +34,3 @@ profissao()
 
 
 // INCLUSAO DE VARIAVEIS PARA UM OBJETO LITERAL ATRAVÉS DE ARROW FUNCTION DENTRO DE A.F
-</script>
-
-
-
-
-</head>
-<body>
-    
-</body>
-</html>

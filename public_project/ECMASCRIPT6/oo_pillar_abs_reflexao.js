@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <script></script>
 
-    <script>
        // Reflexao pillar of abstraction
     // um software de marcenaria
     // cadeira/sofa
@@ -111,7 +103,7 @@ else { console.log('Cadeira nao girou')}
 
 }
 
-let cader = new Cadeira(20, false, 'Green')
+let cader = new Cadeira(20, true, 'Green')
 
 let cadeiras = Array()
 
@@ -119,11 +111,3 @@ cadeiras.push(new Cadeira(8, true, 'Gray'))
 cadeiras.push(new Cadeira(12, false, 'White'))
 console.log(cadeiras)
 console.log(cader)
-
-        </script>
-
-</head>
-<body>
-    <div id="output"></div>
-</body>
-</html>

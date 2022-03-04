@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-
-    <script class="">
 
 class ClanDados {
 
-constructor(nomeDoClan, nomeChar, classe, typeReputation, emblemStrategy, gold) {
+constructor(nomeDoClan, nomeChar, classe, typeReputation, emblemStrategy, gold) 
+
+{
 
 this.nomeDoClan = nomeDoClan
 this.nomeChar = nomeChar
@@ -23,13 +17,13 @@ this.gold = gold
 
 FormClanAndChar() {
 
- document.write(`Clan: ${this.nomeDoClan}<br/>
- Personagem: ${this.nomeChar}<br/>
- Classe: ${this.classe}<br/>
- Reputação: ${this.typeReputation}<br/>
- Emblema: ${this.emblemStrategy}<br/>
- Ouro: ${this.gold}<br/>
- <br/>
+ console.log(`Clan: ${this.nomeDoClan}\n
+ Personagem: ${this.nomeChar}\n
+ Classe: ${this.classe}\n
+ Reputação: ${this.typeReputation}\n
+ Emblema: ${this.emblemStrategy}\n
+ Ouro: ${this.gold}\n
+ \n
  `)//Backticks and template-string
  
 
@@ -60,12 +54,12 @@ let newData = { //OBJETO LITERAL
 
     FormClanAndChar: function() { //CHAMANDO A AÇÃO QUE ESTÁ NA CLASSE
 
-        document.write(`Clan: ${this.nomeDoClan}<br/>
- Personagem: ${this.nomeChar}<br/>
- Classe: ${this.classe}<br/>
- Reputação: ${this.typeReputation}<br/>
- Emblema: ${this.emblemStrategy}<br/>
- Ouro: ${this.gold}<br/>
+        console.log(`Clan: ${this.nomeDoClan}\n
+ Personagem: ${this.nomeChar}\n
+ Classe: ${this.classe}\n
+ Reputação: ${this.typeReputation}\n
+ Emblema: ${this.emblemStrategy}\n
+ Ouro: ${this.gold}\n
  `)
     }
     
@@ -79,9 +73,4 @@ newData.FormClanAndChar()
 clans() //iNVOCAÇÃO DA FUNÇÃO
 
 
-    </script>
-</head>
-<body>
     
-</body>
-</html>

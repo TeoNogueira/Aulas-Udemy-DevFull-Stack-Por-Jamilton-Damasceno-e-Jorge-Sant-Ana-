@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <script></script>
-
-    <script>
 // OBJETO LITERAL
 
 class Produto {
@@ -22,19 +12,17 @@ class Produto {
 
     verDescricao() {
 
-
-
-
         console.log(`${this.descricao} por apenas ${this.preco}`) //BACKTICKS
     }
 
 }
 
-function x() {
-
 let produto = new Produto('Notebook', 2200)
 
 produto.verDescricao()
+
+
+function x() {
 
 //------------- PRODUTO LITERAL ------ ENTRA NO CONTEXTO, PUXANDO SOMENTE A DESCRIÇÃO DA CLASSE IMPLÍCITA
 let produtoLiteral = {
@@ -55,15 +43,3 @@ produtoLiteral.verDescricao()
 }
 
 x()
-
-
-    </script>
-
-</head>
-<body>
-    <div id="output"></div>
-</body>
-</html>
-
-
-
