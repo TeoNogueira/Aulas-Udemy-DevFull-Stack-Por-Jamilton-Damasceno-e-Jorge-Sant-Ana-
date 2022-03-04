@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>JavaScript</title>
-<script>
+
 var objetos = Array('Cadeira', 'Impressora', 'Garfo')
 function adicionarObjetos() {
 //recupera o valor inserido no campo id objeto
@@ -27,11 +22,6 @@ function ordenarObjetos() {
 objetos.sort()
 console.log(objetos)
 }
-</script>
-</head>
-<body>
-<input type="text" id="campo" />
-<button onclick="adicionarObjetos()">Adicionar</button>
-<button onclick="ordenarObjetos()">Ordenar</button>
-</body>
-</html>
+
+
+ordenarObjetos()

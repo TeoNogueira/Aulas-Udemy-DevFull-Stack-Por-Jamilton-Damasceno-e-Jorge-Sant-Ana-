@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script class="">
+
 
 /*
 function soma2(a) {
@@ -36,28 +30,8 @@ function(atribuirParametro) {
 
     console.log('FOi', atribuirParametro)
     
-    
-    
-    
-    
-    
-    
     }
 
 const resultSoma = soma3(10, 5, )
 
 console.log(resultSoma)
-</script> 
-</head>
-<body>
-
-
-
-
-
-
-  
-
- 
-</body>
-</html>

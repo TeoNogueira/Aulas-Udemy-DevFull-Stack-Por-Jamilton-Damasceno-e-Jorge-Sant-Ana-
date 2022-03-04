@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="PT_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
-
-
-    <script class="">
 
  
 function exibirArtigo(id, callBackSuccess, callBackErro) {
@@ -21,17 +12,14 @@ function exibirArtigo(id, callBackSuccess, callBackErro) {
     } else { callBackErro('Erro ao recuperar os dados') }
 
 
-
-
 }
 
 
  var callBackSuccess = function(titulo, descricao) {
 
-
-    document.write('<h1>' + titulo + '</h1>')
-    document.write('<hr />')
-    document.write('<p>' + descricao + '</p>')
+console.log('<h1>' + titulo + '</h1>')
+console.log('<hr />')
+console.log('<p>' + descricao + '</p>')
 
 
 
@@ -39,9 +27,7 @@ function exibirArtigo(id, callBackSuccess, callBackErro) {
 
 var callBackErro = function(erro) {
 
-   document.write('<p><b>Erro: </b>' + erro + '</p>')
-
-
+   console.log('<p><b>Erro: </b>' + erro + '</p>')
 
 }
 
@@ -49,22 +35,10 @@ exibirArtigo(1, callBackSuccess, callBackErro)
 
 
 
-
+//substituindo document.write por console
 
 
         
         /// lembrar sempre de funçoes void (FUNÇOES SEM RETORNO)
         
-        
-           </script>
-        
-
-
-</head>
-<body>
-
-
-
-  <!----  <script src="./scripts/desafio.js"></script>-- >
-</body>
-</html>
+      

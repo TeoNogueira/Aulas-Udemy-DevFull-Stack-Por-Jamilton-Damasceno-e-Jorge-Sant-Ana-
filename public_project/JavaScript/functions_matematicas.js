@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="PT_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
 
-
-    <script class="">
 
 // Math.abs() me trás um valor negativo para positivo de forma que não altera os numeros
 //var x = Math.ceil(10.380) arredonda pra cima no caso seria 11 o resultado
@@ -18,20 +10,8 @@
 
 var x = Math.random(0, 200)
 
-document.write( x )
+console.table( x )
 
         
         
         
-           </script>
-        
-
-
-</head>
-<body>
-
-
-
-  <!----  <script src="./scripts/desafio.js"></script>-- >
-</body>
-</html>

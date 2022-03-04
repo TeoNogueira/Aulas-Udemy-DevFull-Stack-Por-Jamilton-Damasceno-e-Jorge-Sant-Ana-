@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="PT_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
-
-
-    <script class="">
 
    
 // let listaNomes = ['Teófilo', 'João', 'Rick', 'Gabriel', 'Nandinho']
@@ -27,22 +18,7 @@ for(let x in listaConvidados)  {
    console.log('Indice ' + x + ' valor ' + listaConvidados[x])
 
 
-
-
 }
 
+
         
-        
-        
-           </script>
-        
-
-
-</head>
-<body>
-
-
-
-  
-</body>
-</html>

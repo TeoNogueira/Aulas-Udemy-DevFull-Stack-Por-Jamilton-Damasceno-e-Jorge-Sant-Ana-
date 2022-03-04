@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="PT_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
 
-
-    <script class="">
 /*
    let listThings = Array()
 
@@ -43,7 +35,6 @@
 
    function ordenaNumeros(a, b) {
 
-
         return a - b
 // < 0 = a ordenado antes de b
 // > 0 = b ordenado antes de a
@@ -54,15 +45,4 @@
 
    }
         
-           </script>
-        
-
-
-</head>
-<body>
-
-
-
-  
-</body>
-</html>
+      

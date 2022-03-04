@@ -6,7 +6,9 @@ font: 16px Arial, helvetica, sans-serif;
 }
 
 #principal {
-width: 900px; }
+width: 900px;
+
+margin: 0 auto; }
 
 
 

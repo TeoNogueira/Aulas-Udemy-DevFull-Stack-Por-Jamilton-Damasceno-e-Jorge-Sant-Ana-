@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="PT_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
-
-    <script class="">
 
   // CONCEITOS DE ESCOPO:
   // JAVASCRIPT POSSUI 4 TIPOS DE ESCOPOS: global, escopo da função, léxico e o escopo de bloco
@@ -24,31 +16,21 @@
 
  // FUNÇÕES ANÔNIMAS + WRAPPER
 
+ const lion = 'Leão'
+
+
  var exibirUmNome = function(nome) {
 
 
 
-  document.write('Olá ' + nome + ' Seja bem-vindo')
+  console.table('Olá ' + nome + ' Seja bem-vindo')
 
 
  }
 
-exibirUmNome('Leão')
+exibirUmNome(lion)
 
 
 
 
         
-        
-           </script>
-        
-
-
-</head>
-<body>
-
-
-
-  <!----  <script src="./scripts/desafio.js"></script>-- >
-</body>
-</html>

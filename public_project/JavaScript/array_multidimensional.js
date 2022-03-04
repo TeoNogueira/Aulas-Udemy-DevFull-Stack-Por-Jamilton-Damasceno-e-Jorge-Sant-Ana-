@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="PT_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
-
-
-    <script class="">
 
    
 var listaCoisas = Array()
@@ -21,22 +12,12 @@ listaCoisas['objetos']['b'] = 'Bolsa'
 listaCoisas['objetos']['c'] = 'Lancheira'
 
 listaCoisas['objetos'].push('Lapizeira')
+listaCoisas['frutas'].push('Manga')
 
 
 
 console.log(listaCoisas['objetos'])
+console.log(listaCoisas['frutas'])
         
         
         
-           </script>
-        
-
-
-</head>
-<body>
-
-
-
-  
-</body>
-</html>

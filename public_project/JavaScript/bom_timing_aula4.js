@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="PT_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
 
-
-    <script class="">
 
     setTimeout(function() {document.write('text' +'<br>')}, 3000)
 
@@ -31,15 +23,4 @@
         }, 1000) */
         
         
-           </script>
         
-
-
-</head>
-<body>
-
-
-
-  
-</body>
-</html>

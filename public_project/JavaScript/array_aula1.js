@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="PT_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
-
-
-    <script class="">
 
  /*  
 let fruits_list = Array()
@@ -33,15 +24,3 @@ console.log(lista_frutas)
 var list = ['banana', 'jambo', 'macacharque', 'acerola']
         
         
-           </script>
-        
-
-
-</head>
-<body>
-
-
-
-  
-</body>
-</html>

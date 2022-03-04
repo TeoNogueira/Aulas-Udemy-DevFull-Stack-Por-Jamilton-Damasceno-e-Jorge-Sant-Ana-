@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="PT_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
-
-
-    <script>
 
 /* LEMBRANDO QUE O INTERPRETADOR DO JAVASCRIPT PRIMEIRO RESPEITA AS FUNÇÕES E DEPOIS OS SCRIPTS
 
@@ -41,16 +32,4 @@ function soma(a, b) {
         // calculo de 7 + 7 somente.
         console.log(soma(7)) // retorna somente o 7 e um undefined pois não existe o valor próximo (valor B)
 
-        
-           </script>
-        
-
-
-</head>
-<body>
-
-
-
-  <!----  <script src="./scripts/desafio.js"></script>-- >
-</body>
-</html>
+      

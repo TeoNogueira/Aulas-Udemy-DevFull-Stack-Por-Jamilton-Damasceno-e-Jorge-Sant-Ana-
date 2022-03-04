@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="PT_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
 
-
-    <script class="">
 
 
         let listaFuncionarios = ['Viviane', 'Miguel', 'Lucas', 'Forly']
@@ -53,17 +45,6 @@ if(valor == 'Miguel') {
 })
         
         console.log(listaFuncionarios)
-        document.write('<br>' + listaFuncionarios[1])
+        console.log('<br>' + listaFuncionarios[1])
 */
-           </script>
-        
-
-
-</head>
-<body>
-
-
-
-  
-</body>
-</html>
+    
